@@ -54,16 +54,9 @@
 - Лицензия: SIL Open Font License 1.1.
 - Полный текст лицензии: [LICENSE-INTER.txt](LICENSE-INTER.txt).
 
-## Проверенный состав
+## Полные тексты лицензий
 
-Для текущих lock-файлов и целевой платформы Windows x64 проверены:
-
-- 156 production package records Node.js;
-- 257 normal/build package records Rust;
-- полный набор обнаруженных license и notice files;
-- отдельные тексты для пакетов, лицензии которых хранятся в корне исходного репозитория, а не внутри опубликованного package archive.
-
-В составе присутствуют компоненты под лицензиями MIT, Apache-2.0, ISC, BSD-2-Clause, BSD-3-Clause, MPL-2.0, Unicode-3.0, Zlib, 0BSD, CC0-1.0, MIT-0 и Unlicense, включая варианты двойного и множественного лицензирования.
+В составе присутствуют компоненты под лицензиями MIT, Apache-2.0, ISC, BSD-2-Clause, BSD-3-Clause, MPL-2.0, Unicode-3.0, Zlib, 0BSD, CC0-1.0, MIT-0 и Unlicense, включая варианты двойного и множественного лицензирования. Полные сведения о каждом компоненте и применимые тексты приведены в [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
 
 Исходные версии компонентов, распространяемых по MPL-2.0, доступны по точным package source links в [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt). Исходный код этих компонентов не изменялся.
 
@@ -74,5 +67,3 @@ Microsoft Edge WebView2 Runtime не включён в portable ZIP и испо�
 ## Разделение лицензий
 
 Собственная лицензия `EditFileMD` приведена в файле [LICENSE](LICENSE). Она не заменяет и не ограничивает права, предоставленные лицензиями сторонних компонентов.
-
-При изменении dependency graph или состава дистрибутива этот пакет подлежит повторной проверке до публикации новой версии.
