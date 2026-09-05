@@ -2,7 +2,7 @@
 
 ## Сообщения об ошибках
 
-Сообщения об ошибках и предложения функций принимаются через [GitHub Issues](https://github.com/life-with-ai/EditFileMD/issues).
+Сообщения об ошибках и предложения функций принимаются через [GitHub Issues](https://github.com/life-with-ai/LWAI-EditFileMD/issues).
 
 В сообщении об ошибке необходимо указать:
 

@@ -9,7 +9,7 @@
 
 ## Сообщение об уязвимости
 
-Сведения об уязвимостях необходимо направлять через [GitHub Private Vulnerability Reporting](https://github.com/life-with-ai/EditFileMD/security/advisories/new).
+Сведения об уязвимостях необходимо направлять через [GitHub Private Vulnerability Reporting](https://github.com/life-with-ai/LWAI-EditFileMD/security/advisories/new).
 
 Уязвимость не следует публиковать в обычном Issue, Discussion или другом открытом канале до завершения согласованного раскрытия.
 
