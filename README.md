@@ -54,7 +54,7 @@ EXE не имеет цифровой подписи. При первом зап�
 - Windows 8.1 x64 – проверено;
 - Windows 10 x64 – проверено;
 - Windows Server 2025 Standard 24H2 x64 – проверено;
-- Windows 11 x64 – практическое тестирование не выполнялось;
+- Windows 11 x64 – поддержка предусмотрена; практическое тестирование не выполнялось;
 - Microsoft Edge WebView2 Runtime.
 
 Если приложение не запускается из-за отсутствия Microsoft Edge WebView2 Runtime, загрузите его с [официальной страницы Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section), запустите установщик и завершите установку по инструкциям Microsoft.
@@ -133,7 +133,7 @@ The `data` directory contains application settings and workspace state. User doc
 - Windows 8.1 x64 – tested;
 - Windows 10 x64 – tested;
 - Windows Server 2025 Standard 24H2 x64 – tested;
-- Windows 11 x64 – practical testing has not been performed;
+- Windows 11 x64 – designed for compatibility; practical testing has not been performed;
 - Microsoft Edge WebView2 Runtime.
 
 If the application does not start because Microsoft Edge WebView2 Runtime is missing, download it from the [official Microsoft page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section), run the installer, and complete the installation by following Microsoft's instructions.
