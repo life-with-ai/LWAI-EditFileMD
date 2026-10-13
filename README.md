@@ -14,7 +14,7 @@
 
 ### Быстрый старт
 
-1. Скачайте архив `LWAI-EditFileMD-1.12.0-windows-x64-portable.zip` на странице [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). Файл с расширением `.sha256` позволяет проверить целостность загруженного архива.
+1. Скачайте архив `LWAI-EditFileMD-1.13.0-windows-x64-portable.zip` на странице [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). Файл с расширением `.sha256` позволяет проверить целостность загруженного архива.
 2. Полностью распакуйте архив на рабочий стол или в другую папку, в которой ваша учётная запись Windows имеет права на запись.
 3. Откройте распакованную папку и запустите `LWAI-EditFileMD.exe`. Приложение работает в portable-режиме и не требует установки.
 4. Добавьте одну или несколько рабочих папок либо откройте отдельный поддерживаемый файл.
@@ -37,14 +37,17 @@ EXE не имеет цифровой подписи. При первом зап�
 - **Темы и оформление.** Светлая, тёмная и системная темы, настройка шрифтов, цветов и рабочих областей.
 - **Встроенная помощь.** Руководство пользователя объясняет работу с приложением, а отдельная Markdown-справка показывает основные элементы разметки на примерах.
 - **Сохранение в PDF.** Markdown и другие поддерживаемые текстовые документы можно сохранить в PDF без изменения исходного файла.
+- Настройки экспорта PDF: формат и ориентация листа, поля, масштаб, переносы таблиц, оформление, заливки, колонтитулы и метаданные.
+- Предпросмотр готовых PDF-страниц с прокруткой, переходом по номеру и увеличением просмотра.
+- Сохранение всех страниц или выбранного диапазона; предпросмотр можно отключить в настройках.
 
 ### Совместимость конфигурации
 
-Конфигурация версии `1.11.0` совместима с версией `1.12.0`. Настройки и рабочее состояние можно перенести без повторной настройки приложения.
+Конфигурация версии `1.12.0` совместима с версией `1.13.0`. Настройки и рабочее состояние можно перенести без повторной настройки приложения.
 
 1. Закройте обе версии приложения.
-2. Полностью распакуйте архив версии `1.12.0` в новую папку.
-3. Скопируйте папку `data` из portable-папки версии `1.11.0` в папку версии `1.12.0` с заменой существующей пустой папки.
+2. Полностью распакуйте архив версии `1.13.0` в новую папку.
+3. Скопируйте папку `data` из portable-папки версии `1.12.0` в папку версии `1.13.0` с заменой существующей пустой папки.
 4. Запустите `LWAI-EditFileMD.exe`.
 
 В папке `data` хранятся настройки приложения и состояние рабочей области. Пользовательские документы остаются в исходных папках и при переносе конфигурации не копируются.
@@ -93,7 +96,7 @@ The application is suitable for instructions, knowledge bases, and other project
 
 ### Quick start
 
-1. Download `LWAI-EditFileMD-1.12.0-windows-x64-portable.zip` from [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). The accompanying `.sha256` file can be used to verify the integrity of the downloaded archive.
+1. Download `LWAI-EditFileMD-1.13.0-windows-x64-portable.zip` from [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). The accompanying `.sha256` file can be used to verify the integrity of the downloaded archive.
 2. Extract the complete archive to the desktop or another folder where your Windows account has write access.
 3. Open the extracted folder and run `LWAI-EditFileMD.exe`. The application runs in portable mode and requires no installation.
 4. Add one or more working folders, or open an individual supported file.
@@ -116,14 +119,17 @@ The EXE is not digitally signed. Windows may display its standard warning for a 
 - **Themes and appearance.** Light, dark, and system themes, with configurable fonts, colors, and workspaces.
 - **Built-in help.** The user guide explains how to work with the application, while the separate Markdown reference demonstrates common syntax with examples.
 - **Save to PDF.** Markdown and other supported text documents can be saved as PDF without changing the source file.
+- PDF export settings: paper format and orientation, margins, scale, table pagination, appearance, backgrounds, headers and footers, and metadata.
+- Preview of PDF pages with scrolling, page navigation, and viewing zoom.
+- Save all pages or a selected range; the preview can be disabled in settings.
 
 ### Configuration compatibility
 
-The version `1.11.0` configuration is compatible with version `1.12.0`. Settings and workspace state can be transferred without configuring the application again.
+The version `1.12.0` configuration is compatible with version `1.13.0`. Settings and workspace state can be transferred without configuring the application again.
 
 1. Close both versions of the application.
-2. Extract the complete version `1.12.0` archive to a new folder.
-3. Copy the `data` directory from the version `1.11.0` portable folder to the version `1.12.0` folder, replacing the existing empty directory.
+2. Extract the complete version `1.13.0` archive to a new folder.
+3. Copy the `data` directory from the version `1.12.0` portable folder to the version `1.13.0` folder, replacing the existing empty directory.
 4. Run `LWAI-EditFileMD.exe`.
 
 The `data` directory contains application settings and workspace state. User documents remain in their original folders and are not copied when the configuration is transferred.

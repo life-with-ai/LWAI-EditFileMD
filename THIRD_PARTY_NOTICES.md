@@ -1,6 +1,6 @@
 # Third-party notices
 
-Дата проверки: 3 августа 2026 года.
+Дата проверки: 13 октября 2026 года.
 
 `EditFileMD` содержит сторонние программные компоненты. Эти компоненты принадлежат соответствующим правообладателям и распространяются на условиях собственных лицензий.
 
@@ -23,13 +23,17 @@
 | encoding_rs | 0.8.35 | Декодирование и кодирование поддерживаемых Unicode- и legacy-форматов | (Apache-2.0 OR MIT) AND BSD-3-Clause |
 | chardetng | 1.0.0 | Эвристическое определение BOM-less legacy-кодировок | Apache-2.0 OR MIT |
 
+## PDF-компоненты
+
+PDF.js 4.10.38 используется для предпросмотра PDF (Apache License 2.0), включая core-js 3.39.0 (MIT). PDF-lib 1.17.1 используется для сохранения выбранных страниц (MIT). Полные тексты лицензий этих компонентов и сопутствующих пакетов находятся в [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
+
 ## Codicons
 
 В интерфейсе `EditFileMD` используются отдельные SVG-иконки из набора Codicons.
 
 - Правообладатель: Microsoft Corporation и участники проекта Codicons.
 - Официальный источник: <https://github.com/microsoft/vscode-codicons>.
-- Лицензия: Creative Commons Attribution 4.0 International (CC BY 4.0) — <https://creativecommons.org/licenses/by/4.0/>.
+- Лицензия: Creative Commons Attribution 4.0 International (CC BY 4.0) – <https://creativecommons.org/licenses/by/4.0/>.
 - Официальный файл лицензии: <https://github.com/microsoft/vscode-codicons/blob/main/LICENSE>.
 
 ## Встроенные шрифты
