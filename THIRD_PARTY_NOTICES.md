@@ -25,7 +25,9 @@
 
 ## PDF-компоненты
 
-PDF.js 4.10.38 используется для предпросмотра PDF (Apache License 2.0), включая core-js 3.39.0 (MIT). PDF-lib 1.17.1 используется для сохранения выбранных страниц (MIT). Полные тексты лицензий этих компонентов и сопутствующих пакетов находятся в [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
+PDF.js 4.10.38 используется для просмотра PDF и предпросмотра экспорта (Apache License 2.0), включая core-js 3.39.0 (MIT). PDF-lib 1.17.1 используется для сохранения выбранных страниц (MIT). Полные тексты лицензий этих компонентов и сопутствующих пакетов находятся в [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt).
+
+Подсветка исходного кода использует `@1c-syntax/codemirror-lang-bsl` 0.3.2, `@codemirror/legacy-modes` 6.5.4, `@codemirror/lang-php` 6.0.2 и `@lezer/php` 1.0.6. Эти пакеты распространяются по лицензии MIT.
 
 ## Codicons
 

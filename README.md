@@ -14,10 +14,10 @@
 
 ### Быстрый старт
 
-1. Скачайте архив `LWAI-EditFileMD-1.15.0-windows-x64-portable.zip` на странице [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). Файл с расширением `.sha256` позволяет проверить целостность загруженного архива.
+1. Скачайте архив `LWAI-EditFileMD-1.16.0-windows-x64-portable.zip` на странице [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). Файл с расширением `.sha256` позволяет проверить целостность загруженного архива.
 2. Полностью распакуйте архив на рабочий стол или в другую папку, в которой ваша учётная запись Windows имеет права на запись.
 3. Откройте распакованную папку и запустите `LWAI-EditFileMD.exe`. Приложение работает в portable-режиме и не требует установки.
-4. Добавьте одну или несколько рабочих папок либо откройте отдельный поддерживаемый файл.
+4. На экране «Выберите действие» добавьте существующий проект, создайте новый проект или откройте отдельный файл.
 5. Выберите режим «Просмотр», «Редактирование» или «Совместный» на верхней панели.
 
 Для первого запуска рекомендуется использовать рабочий стол или другую пользовательскую папку. Размещение приложения в защищённой системной папке может помешать сохранению настроек и рабочего состояния.
@@ -31,12 +31,13 @@ EXE не имеет цифровой подписи. При первом зап�
 - **Три режима документа.** «Просмотр» показывает оформленный документ. «Редактирование» открывает исходный текст для правок. «Совместный» показывает редактор и область просмотра рядом.
 - **Поддержка Markdown.** Таблицы, списки задач, сноски, ссылки, локальные изображения, блоки кода, метаданные и другие элементы разметки.
 - **Сохранение и внешние изменения.** Автосохранение, ручное сохранение и контроль изменений из других приложений помогают защитить текущую работу.
-- **Текстовые форматы.** Поддерживаются Markdown (`.md`, `.markdown`), обычный текст (`.txt`), журналы (`.log`), табличные выгрузки (`.csv`, `.tsv`), исходники Rust и SQL (`.rs`, `.sql`), HTML и CSS (`.html`, `.htm`, `.css`), JavaScript и TypeScript (`.js`, `.mjs`, `.cjs`, `.jsx`, `.ts`, `.tsx`), структурированные данные (`.json`, `.xml`, `.svg`, `.yaml`, `.yml`), Python (`.py`, `.pyw`, `.pyi`), конфигурационные файлы (`.toml`, `.ini`, `.cfg`, `.conf`, `.properties`, `.env`, `.lock`), скрипты (`.ps1`, `.psm1`, `.psd1`, `.cmd`, `.bat`, `.sh`) и текстовые файлы ключей (`.pub`, `.ppk`). Их содержимое открывается как текст и не исполняется.
+- **Текстовые форматы.** Открывайте и редактируйте Markdown, обычный текст, журналы, табличные выгрузки, PID, исходный код и конфигурации. Для исходного кода доступна подсветка по формату. Полный список приведён в разделе «Форматы файлов» встроенного руководства.
 - **Конвертация кодировок.** Автоматическое определение, ручное переоткрытие и преобразование документов между поддерживаемыми кодировками.
 - **Окончания строк.** Определение, сохранение и преобразование окончаний строк `LF` и `CRLF`.
 - **Два языка интерфейса.** Интерфейс приложения доступен на русском и английском языках.
 - **Темы и оформление.** Светлая, тёмная и системная темы, настройка шрифтов, цветов и рабочих областей.
 - **Встроенная помощь.** Руководство пользователя объясняет работу с приложением, а отдельная Markdown-справка показывает основные элементы разметки на примерах.
+- **Просмотр PDF.** Открывайте локальные PDF во вкладках, переходите по страницам, меняйте масштаб и подгоняйте страницу по ширине.
 - **Сохранение в PDF.** Markdown и другие поддерживаемые текстовые документы можно сохранить в PDF без изменения исходного файла.
 - Настройки экспорта PDF: формат и ориентация листа, поля, масштаб, переносы таблиц, оформление, заливки, колонтитулы и метаданные.
 - Предпросмотр готовых PDF-страниц с прокруткой, переходом по номеру и увеличением просмотра.
@@ -44,21 +45,19 @@ EXE не имеет цифровой подписи. При первом зап�
 
 ### Совместимость конфигурации
 
-Конфигурация версии `1.14.0` совместима с версией `1.15.0`. Настройки и рабочее состояние можно перенести без повторной настройки приложения.
+Перенос настроек и рабочего состояния из версии `1.15.0` в `1.16.0` проверен на Windows 8.1 x64 и Windows 10 x64.
 
 1. Закройте обе версии приложения.
-2. Полностью распакуйте архив версии `1.15.0` в новую папку.
-3. Скопируйте папку `data` из portable-папки версии `1.14.0` в папку версии `1.15.0` с заменой существующей пустой папки.
+2. Полностью распакуйте архив версии `1.16.0` в новую папку.
+3. Скопируйте папку `data` из portable-папки версии `1.15.0` в папку версии `1.16.0` с заменой существующей пустой папки.
 4. Запустите `LWAI-EditFileMD.exe`.
 
 В папке `data` хранятся настройки приложения и состояние рабочей области. Пользовательские документы остаются в исходных папках и при переносе конфигурации не копируются.
 
 ### Системные требования
 
-- Windows 8.1 x64;
-- Windows 10 x64;
-- Windows Server 2025 Standard 24H2 x64;
-- Windows 11 x64 – поддержка предусмотрена; практическое тестирование не выполнялось;
+- Windows 8.1 x64 и Windows 10 x64 – проверено;
+- Windows 11 x64 и Windows Server 2025 Standard 24H2 x64 – поддержка предусмотрена; практическое тестирование этой версии не выполнялось;
 - Microsoft Edge WebView2 Runtime.
 
 Если приложение не запускается из-за отсутствия Microsoft Edge WebView2 Runtime, загрузите его с [официальной страницы Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section), запустите установщик и завершите установку по инструкциям Microsoft.
@@ -97,10 +96,10 @@ The application is suitable for instructions, knowledge bases, and other project
 
 ### Quick start
 
-1. Download `LWAI-EditFileMD-1.15.0-windows-x64-portable.zip` from [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). The accompanying `.sha256` file can be used to verify the integrity of the downloaded archive.
+1. Download `LWAI-EditFileMD-1.16.0-windows-x64-portable.zip` from [GitHub Releases](https://github.com/life-with-ai/LWAI-EditFileMD/releases/latest). The accompanying `.sha256` file can be used to verify the integrity of the downloaded archive.
 2. Extract the complete archive to the desktop or another folder where your Windows account has write access.
 3. Open the extracted folder and run `LWAI-EditFileMD.exe`. The application runs in portable mode and requires no installation.
-4. Add one or more working folders, or open an individual supported file.
+4. On the Choose an action screen, add an existing project, create a new project, or open an individual file.
 5. Select View, Edit, or Combined on the top bar.
 
 For the first launch, use the desktop or another user folder. Placing the application in a protected system folder may prevent settings and workspace state from being saved.
@@ -114,12 +113,13 @@ The EXE is not digitally signed. Windows may display its standard warning for a 
 - **Three document modes.** View shows the formatted document. Edit opens the source text for changes. Combined shows the editor and viewing area side by side.
 - **Markdown support.** Tables, task lists, footnotes, links, local images, code blocks, metadata, and other markup elements.
 - **Saving and external changes.** Autosave, manual saving, and external change handling help protect current work.
-- **Text formats.** Supported formats include Markdown (`.md`, `.markdown`), plain text (`.txt`), logs (`.log`), tabular exports (`.csv`, `.tsv`), Rust and SQL source files (`.rs`, `.sql`), HTML and CSS (`.html`, `.htm`, `.css`), JavaScript and TypeScript (`.js`, `.mjs`, `.cjs`, `.jsx`, `.ts`, `.tsx`), structured data (`.json`, `.xml`, `.svg`, `.yaml`, `.yml`), Python (`.py`, `.pyw`, `.pyi`), configuration files (`.toml`, `.ini`, `.cfg`, `.conf`, `.properties`, `.env`, `.lock`), scripts (`.ps1`, `.psm1`, `.psd1`, `.cmd`, `.bat`, `.sh`), and text-based key files (`.pub`, `.ppk`). Their contents open as text and are not executed.
+- **Text formats.** Open and edit Markdown, plain text, logs, tabular exports, PID files, source code, and configuration files. Source-code highlighting depends on the format. See File formats in the built-in guide for the full list.
 - **Encoding conversion.** Automatic detection, manual reopening, and document conversion between supported encodings.
 - **Line endings.** Detection, preservation, and conversion of `LF` and `CRLF` line endings.
 - **Two interface languages.** The application interface is available in Russian and English.
 - **Themes and appearance.** Light, dark, and system themes, with configurable fonts, colors, and workspaces.
 - **Built-in help.** The user guide explains how to work with the application, while the separate Markdown reference demonstrates common syntax with examples.
+- **PDF viewing.** Open local PDFs in tabs, navigate pages, change the zoom, and fit pages to the available width.
 - **Save to PDF.** Markdown and other supported text documents can be saved as PDF without changing the source file.
 - PDF export settings: paper format and orientation, margins, scale, table pagination, appearance, backgrounds, headers and footers, and metadata.
 - Preview of PDF pages with scrolling, page navigation, and viewing zoom.
@@ -127,21 +127,19 @@ The EXE is not digitally signed. Windows may display its standard warning for a 
 
 ### Configuration compatibility
 
-The version `1.14.0` configuration is compatible with version `1.15.0`. Settings and workspace state can be transferred without configuring the application again.
+Transferring settings and workspace state from version `1.15.0` to `1.16.0` was tested on Windows 8.1 x64 and Windows 10 x64.
 
 1. Close both versions of the application.
-2. Extract the complete version `1.15.0` archive to a new folder.
-3. Copy the `data` directory from the version `1.14.0` portable folder to the version `1.15.0` folder, replacing the existing empty directory.
+2. Extract the complete version `1.16.0` archive to a new folder.
+3. Copy the `data` directory from the version `1.15.0` portable folder to the version `1.16.0` folder, replacing the existing empty directory.
 4. Run `LWAI-EditFileMD.exe`.
 
 The `data` directory contains application settings and workspace state. User documents remain in their original folders and are not copied when the configuration is transferred.
 
 ### System requirements
 
-- Windows 8.1 x64;
-- Windows 10 x64;
-- Windows Server 2025 Standard 24H2 x64;
-- Windows 11 x64 – designed for compatibility; practical testing has not been performed;
+- Windows 8.1 x64 and Windows 10 x64 – tested;
+- Windows 11 x64 and Windows Server 2025 Standard 24H2 x64 – designed for compatibility; this version has not been tested on these systems;
 - Microsoft Edge WebView2 Runtime.
 
 If the application does not start because Microsoft Edge WebView2 Runtime is missing, download it from the [official Microsoft page](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section), run the installer, and complete the installation by following Microsoft's instructions.
